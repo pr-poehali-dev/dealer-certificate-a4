@@ -30,16 +30,17 @@ const Index = () => {
           <div className="aspect-[210/297] bg-white border-8 border-double border-slate-800 p-12 relative">
             <div className="absolute top-8 left-8 right-8 bottom-8 border-2 border-amber-500"></div>
             
+            <div className="absolute top-12 left-12 z-20">
+              <img 
+                src="https://cdn.poehali.dev/files/e61a23f8-29d3-401a-b404-2c1f712b7fd9.png" 
+                alt="Логотип Кузембетьевский РМЗ"
+                className="w-32 h-auto"
+              />
+            </div>
+
             <div className="relative z-10 h-full flex flex-col">
               <div className="text-center mb-8">
-                <div className="mx-auto mb-6">
-                  <img 
-                    src="https://cdn.poehali.dev/files/e61a23f8-29d3-401a-b404-2c1f712b7fd9.png" 
-                    alt="Логотип Кузембетьевский РМЗ"
-                    className="w-48 h-auto mx-auto"
-                  />
-                </div>
-                <div className="space-y-2">
+                <div className="space-y-2 mt-8">
                   <div className="text-sm font-medium text-slate-600 tracking-widest uppercase">
                     Официальный документ
                   </div>
