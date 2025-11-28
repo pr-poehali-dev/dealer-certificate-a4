@@ -32,8 +32,12 @@ const Index = () => {
             
             <div className="relative z-10 h-full flex flex-col">
               <div className="text-center mb-8">
-                <div className="w-24 h-24 mx-auto mb-4 bg-slate-800 rounded-full flex items-center justify-center">
-                  <Icon name="Award" size={48} className="text-amber-500" />
+                <div className="mx-auto mb-6">
+                  <img 
+                    src="https://cdn.poehali.dev/files/e61a23f8-29d3-401a-b404-2c1f712b7fd9.png" 
+                    alt="Логотип Кузембетьевский РМЗ"
+                    className="w-48 h-auto mx-auto"
+                  />
                 </div>
                 <div className="space-y-2">
                   <div className="text-sm font-medium text-slate-600 tracking-widest uppercase">
