@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const [dealerName, setDealerName] = useState('ООО "КОМПАНИЯ ДИЛЕР"');
+  const [dealerName, setDealerName] = useState('ООО "ТД "ОСС" (ИНН 5245029239)');
   const [isEditing, setIsEditing] = useState(false);
 
   const handlePrint = () => {
@@ -78,7 +78,8 @@ const Index = () => {
                   )}
 
                   <p className="text-lg text-slate-700 mt-8">
-                    является официальным дилером нашей компании<br />
+                    является официальным дилером<br />
+                    <span className="font-semibold">АО "Кузембетьевский РМЗ" (ИНН 1628000773)</span><br />
                     и уполномочен осуществлять продажу продукции<br />
                     на территории Российской Федерации
                   </p>
@@ -114,7 +115,7 @@ const Index = () => {
 
                 <div className="text-center mt-8 pt-8 border-t border-slate-200">
                   <p className="text-sm text-slate-500">
-                    Дата выдачи: {new Date().toLocaleDateString('ru-RU')}
+                    Дата выдачи: 24.11.2025 г.
                   </p>
                   <p className="text-xs text-slate-400 mt-2">
                     Сертификат действителен на территории РФ
