@@ -93,9 +93,11 @@ const Index = () => {
                           <Icon name="FileSignature" size={32} className="text-slate-400" />
                         </div>
                       </div>
-                      <p className="text-sm text-slate-600 font-medium">
-                        Подпись руководителя
-                      </p>
+                      <div className="text-xs text-slate-500 space-y-1">
+                        <p className="font-medium">Генеральный директор</p>
+                        <p className="font-medium">АО "Кузембетьевский РМЗ"</p>
+                        <p className="font-semibold text-slate-700">Ханафи Хамитович Каримов</p>
+                      </div>
                     </div>
                   </div>
 
