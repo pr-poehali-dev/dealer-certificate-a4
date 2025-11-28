@@ -51,14 +51,23 @@ const Index = () => {
                     ДИЛЕРА
                   </div>
                 </div>
-                <div className="mt-6 flex justify-center">
+                <div className="mt-6 flex justify-center gap-6 items-center">
                   <img 
                     src="https://cdn.poehali.dev/files/5f9e0328-146e-4dac-8123-8b58e4e4007f.jpg" 
                     alt="Оборудование МЗК-7СТ"
-                    className="w-96 h-auto"
+                    className="w-64 h-auto"
                     style={{ 
                       mixBlendMode: 'multiply',
                       filter: 'contrast(1.1) brightness(1.05)'
+                    }}
+                  />
+                  <img 
+                    src="https://cdn.poehali.dev/files/fd2b5758-0202-407b-b5e1-1a82246000cd.jpg" 
+                    alt="Зерноочистительные линии"
+                    className="w-64 h-auto rounded-lg"
+                    style={{ 
+                      mixBlendMode: 'multiply',
+                      filter: 'contrast(1.05)'
                     }}
                   />
                 </div>
