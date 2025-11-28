@@ -51,6 +51,13 @@ const Index = () => {
                     ДИЛЕРА
                   </div>
                 </div>
+                <div className="mt-6 flex justify-center">
+                  <img 
+                    src="https://cdn.poehali.dev/files/5f9e0328-146e-4dac-8123-8b58e4e4007f.jpg" 
+                    alt="Оборудование МЗК-7СТ"
+                    className="w-64 h-auto rounded-lg shadow-md"
+                  />
+                </div>
               </div>
 
               <div className="flex-1 flex flex-col justify-center space-y-8">
