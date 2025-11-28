@@ -55,7 +55,11 @@ const Index = () => {
                   <img 
                     src="https://cdn.poehali.dev/files/5f9e0328-146e-4dac-8123-8b58e4e4007f.jpg" 
                     alt="Оборудование МЗК-7СТ"
-                    className="w-64 h-auto rounded-lg shadow-md"
+                    className="w-96 h-auto"
+                    style={{ 
+                      mixBlendMode: 'multiply',
+                      filter: 'contrast(1.1) brightness(1.05)'
+                    }}
                   />
                 </div>
               </div>
