@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
-  const [dealerName, setDealerName] = useState('ООО "ТД "ОСС" (ИНН 5245029239)');
+  const [dealerName, setDealerName] = useState('ООО "ТД "АСС" (ИНН 5245029239)');
   const [isEditing, setIsEditing] = useState(false);
 
   const handlePrint = () => {
@@ -81,7 +81,7 @@ const Index = () => {
                     является официальным дилером<br />
                     <span className="font-semibold">АО "Кузембетьевский РМЗ" (ИНН 1628000773)</span><br />
                     и уполномочен осуществлять продажу продукции<br />
-                    на территории Российской Федерации
+                    на территории Нижегородской, Владимирской и Ивановской областях
                   </p>
                 </div>
 
